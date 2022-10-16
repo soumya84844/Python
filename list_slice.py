@@ -1,0 +1,9 @@
+nums = [i for i in range(1, 21)]
+slice1 = nums[5 : 16 : 2]
+slice2 = nums[ : : 4]
+sum_slice1 = sum(slice1)
+sum_slice2 = sum(slice2)
+avg_slice2 = sum_slice2/len(slice2)
+print("Sum of slice 1 = ", sum_slice1)
+print("Sum of slice 2 = ", sum_slice2)
+print("Average of slice 2 = ", avg_slice2)
